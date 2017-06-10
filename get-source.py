@@ -97,7 +97,7 @@ try:
 					tags  = line[1].split(', ')
 					isTag = tag in tags
 
-				elif line[0] == 'GitCommit':
+				elif line[0] == 'amd64-GitCommit':
 					commit = line[1]
 
 				elif line[0] == 'Directory':
